@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <script language="javascript" type="text/javascript" src="function.js"></script>
+        <title>Selamat Hari Raya</title>
+        <style>
+            #textboxid{
+                border-radius: 25px;
+                border: 2px solid thistle;
+                padding: 20px;
+                width: 350px;
+                height: 15px;
+            }
+            .bg3{
+                background-image: url("image/hr1.gif");
+                background-repeat: no-repeat;
+                background-size: 100% 110%;
+            }
+        </style>
+    </head>
+    <body bgcolor="white">
+        <div class="bg3">
+            <p>
+                <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+            </p>
+            <style>
+                #textboxid{
+                    width: 20%;
+                    height: 10%;
+                    font-size: 100%;
+                }
+            </style>
+            <font size=4 color=black>
+                <b>Send Your Blessing: </b>
+            </font>
+            <input onfocus="if(this.value=='Enter Your Name'){this.value='';} "type="text" id="textboxid" name="myname" value="Enter Your Name">
+            <img onclick="sendtowhatsapp();" src="image/mail.gif" alt="sending" align="middle" style="max-width:5%;height:auto;">
+        </div>         
+    </body>
+</html>

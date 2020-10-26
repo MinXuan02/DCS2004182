@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <script language="javascript" type="text/javascript" src="function.js"></script>
+        <title>Merry Christmas</title>
+        <style>
+            #textboxid{
+                border-radius: 25px;
+                border: 2px solid thistle;
+                padding: 20px;
+                width: 350px;
+                height: 15px;
+            }
+            .bg3{
+                background-image: url("image/mc1.jpg");
+                background-repeat: no-repeat;
+                background-size: 100% 110%;
+            }
+        </style>
+    </head>
+    <body bgcolor="white">
+        <div class="bg3">
+            <p style="font-family:'Segoe Script';">
+                <h1 style="text-align:center;font-family:'Segoe Script';color: goldenrod;font-size: 450%;">Merry Christmas</h1>
+            </p>
+            <p>
+                <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+            </p>
+            <style>
+                #textboxid{
+                    width: 20%;
+                    height: 10%;
+                    font-size: 100%;
+                }
+            </style>
+            <font size=4 color=black>
+                <b>Send Your Blessing: </b>
+            </font>
+            <input onfocus="if(this.value=='Enter Your Name'){this.value='';} "type="text" id="textboxid" name="myname" value="Enter Your Name">
+            <img onclick="sendtowhatsapp();" src="image/mail.gif" alt="sending" align="middle" style="max-width:5%;height:auto;">
+        </div>         
+    </body>
+</html>
